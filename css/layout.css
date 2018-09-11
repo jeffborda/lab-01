@@ -1,0 +1,42 @@
+header {
+  height: 75px;
+  background-color: #2d9fd9;
+}
+nav {
+  height: 150px;
+  background-color: #a0d18c
+}
+section.c-d div {
+  height: 125px;
+}
+#c {
+  background-color: #d87dd8;
+}
+#d {
+  background-color: #f68f54;
+}
+section.e-h div {
+  width: 240px;
+  height: 250px;
+}
+#e {
+  float: left;
+  background-color: #ec4d7d;
+}
+#f {
+  float: right;
+  background-color: #c5d0fe;
+}
+#g {
+  float: left;
+  background-color: #b1a43c;
+}
+#h {
+  float: right;
+  background-color: #6dcff6;
+}
+footer {
+  clear: both;
+  background-color: #6b6767;
+  height: 80px;
+}
