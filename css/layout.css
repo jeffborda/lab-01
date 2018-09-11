@@ -52,12 +52,12 @@ footer {
 
   header {
     height: 100px;
-    background-color: #2d9fd9;
+    background-color: #b26edf;
   }
   nav {
     width: 200px;
     height: 600px;
-    background-color: #a0d18c;
+    background-color: #569173;
     float: left;
   }
   section.c-d div {
@@ -65,11 +65,11 @@ footer {
     height: 200px;
   }
   #c {
-    background-color: #d87dd8;
+    background-color: #6e6e6e;
     float: left;
   }
   #d {
-    background-color: #f68f54;
+    background-color: #54f1f6;
     float: right;
   }
   section.e-h div {
@@ -79,23 +79,23 @@ footer {
   }
   #e {
     float: left;
-    background-color: #ec4d7d;
+    background-color: #80da1b;
   }
   #f {
     float: left;
-    background-color: #c5d0fe;
+    background-color: #52619c;
   }
   #g {
     float: left;
-    background-color: #b1a43c;
+    background-color: #86cf74;
   }
   #h {
     float: left;
-    background-color: #6dcff6;
+    background-color: #8f48b1;
   }
   footer {
     clear: none;
-    background-color: #6b6767;
+    background-color: #1ba822;
     width: 760px;
     height: 150px;
     float: left;

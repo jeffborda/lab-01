@@ -5,4 +5,9 @@ body {
   font-size: 30px;
   text-align: center;
 }
-
+p {
+  display: block;
+  top: 35%;
+  margin: 0px;
+  position: relative;
+}
