@@ -2,7 +2,6 @@ header {
   grid-row: 1;
   grid-column-start: 1;
   grid-column-end: 3;  
-  /* height: 75px; */
   background-color: #2d9fd9;
 }
 nav {
@@ -10,7 +9,6 @@ nav {
   grid-row: 2;
   grid-column-start: 1;
   grid-column-end: 3;
-  /* height: 150px; */
   background-color: #a0d18c;
 }
 #c {
@@ -26,40 +24,31 @@ nav {
   grid-column-start: 1;
   grid-column-end: 3;
 }
-section.e-h div {
-  width: 240px;
-  height: 250px;
-}
 #e {
-  /* float: left; */
   background-color: #ec4d7d;
   grid-row: 5;
   grid-column-start: 1;
   grid-column-end: 2;
 }
 #f {
-  /* float: right; */
   background-color: #c5d0fe;
   grid-row: 5;
   grid-column-start: 2;
   grid-column-end: 3;
 }
 #g {
-  /* float: left; */
   background-color: #b1a43c;
   grid-row: 6;
   grid-column-start: 1;
   grid-column-end: 2;
 }
 #h {
-  /* float: right; */
   background-color: #6dcff6;
   grid-row: 6;
   grid-column-start: 2;
   grid-column-end: 3;
 }
 footer {
-  /* clear: both; */
   background-color: #6b6767;
   grid-row: 7;
   grid-column-start: 1;
@@ -80,23 +69,16 @@ footer {
   }
 
   header {
-    height: 100px;
     background-color: #b26edf;
     grid-row: 1;
     grid-column-start: 1;
     grid-column-end: 6;
   }
   nav {
-    width: 200px;
-    height: 600px;
     background-color: #569173;
     grid-row-start: 2;
     grid-row-end: 5;
     grid-column: 1;  
-  }
-  section.c-d div {
-    width: 380px;
-    height: 200px;
   }
   #c {
     background-color: #6e6e6e;
@@ -137,8 +119,6 @@ footer {
   }
   footer {
     background-color: #1ba822;
-    width: 760px;
-    height: 150px;
     grid-row: 4;
     grid-column-start: 2;
     grid-column-end: 6;
@@ -159,23 +139,16 @@ footer {
   }
 
   header {
-    height: 100px;
     background-color: #F5F5F5;
     grid-row: 1;
     grid-column-start: 1;
     grid-column-end: 6;
   }
   nav {
-    width: 200px;
-    height: 600px;
     background-color: #E0E0E0;
     grid-row-start: 2;
     grid-row-end: 5;
     grid-column: 1;  
-  }
-  section.c-d div {
-    width: 380px;
-    height: 200px;
   }
   #c {
     background-color: #D3D3D3;
@@ -216,8 +189,6 @@ footer {
   }
   footer {
     background-color: #404040;
-    width: 760px;
-    height: 150px;
     grid-row: 4;
     grid-column-start: 2;
     grid-column-end: 6;
