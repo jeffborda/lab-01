@@ -1,44 +1,69 @@
 header {
-  height: 75px;
+  grid-row: 1;
+  grid-column-start: 1;
+  grid-column-end: 3;  
+  /* height: 75px; */
   background-color: #2d9fd9;
 }
 nav {
-  height: 150px;
+  display: grid;
+  grid-row: 2;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  /* height: 150px; */
   background-color: #a0d18c;
-}
-section.c-d div {
-  height: 125px;
 }
 #c {
   background-color: #d87dd8;
+  grid-row: 3;
+  grid-column-start: 1;
+  grid-column-end: 3;
+
 }
 #d {
   background-color: #f68f54;
+  grid-row: 4;
+  grid-column-start: 1;
+  grid-column-end: 3;
 }
 section.e-h div {
   width: 240px;
   height: 250px;
 }
 #e {
-  float: left;
+  /* float: left; */
   background-color: #ec4d7d;
+  grid-row: 5;
+  grid-column-start: 1;
+  grid-column-end: 2;
 }
 #f {
-  float: right;
+  /* float: right; */
   background-color: #c5d0fe;
+  grid-row: 5;
+  grid-column-start: 2;
+  grid-column-end: 3;
 }
 #g {
-  float: left;
+  /* float: left; */
   background-color: #b1a43c;
+  grid-row: 6;
+  grid-column-start: 1;
+  grid-column-end: 2;
 }
 #h {
-  float: right;
+  /* float: right; */
   background-color: #6dcff6;
+  grid-row: 6;
+  grid-column-start: 2;
+  grid-column-end: 3;
 }
 footer {
-  clear: both;
+  /* clear: both; */
   background-color: #6b6767;
-  height: 80px;
+  grid-row: 7;
+  grid-column-start: 1;
+  grid-column-end: 3;
 }
 
 @media only screen and (min-width: 768px) {
@@ -48,17 +73,26 @@ footer {
     margin: 0px auto;
     font-size: 30px;
     text-align: center;
+
+    display: grid;
+    grid-template-columns: 200px 190px 190px 190px 190px;
+    grid-template-rows: 100px 200px 250px 150px;
   }
 
   header {
     height: 100px;
     background-color: #b26edf;
+    grid-row: 1;
+    grid-column-start: 1;
+    grid-column-end: 6;
   }
   nav {
     width: 200px;
     height: 600px;
     background-color: #569173;
-    float: left;
+    grid-row-start: 2;
+    grid-row-end: 5;
+    grid-column: 1;  
   }
   section.c-d div {
     width: 380px;
@@ -66,38 +100,126 @@ footer {
   }
   #c {
     background-color: #6e6e6e;
-    float: left;
+    grid-row: 2;
+    grid-column-start: 2;
+    grid-column-end: 4;
   }
   #d {
     background-color: #54f1f6;
-    float: right;
+    grid-row: 2;
+    grid-column-start: 4;
+    grid-column-end: 6;
   }
-  section.e-h div {
-    width: 190px;
-    height: 250px;
-    float: left;
-  }
+
   #e {
-    float: left;
     background-color: #80da1b;
+    grid-row: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
   }
   #f {
-    float: left;
     background-color: #52619c;
+    grid-row: 3;
+    grid-column-start: 3;
+    grid-column-end: 4;
   }
   #g {
-    float: left;
     background-color: #86cf74;
+    grid-row: 3;
+    grid-column-start: 4;
+    grid-column-end: 5;
   }
   #h {
-    float: left;
     background-color: #8f48b1;
+    grid-row: 3;
+    grid-column-start: 5;
+    grid-column-end: 6;
   }
   footer {
-    clear: none;
     background-color: #1ba822;
     width: 760px;
     height: 150px;
-    float: left;
+    grid-row: 4;
+    grid-column-start: 2;
+    grid-column-end: 6;
+  }
+}
+
+@media only screen and (min-width: 950px) {
+
+  body {
+    width: 960px;
+    margin: 0px auto;
+    font-size: 30px;
+    text-align: center;
+
+    display: grid;
+    grid-template-columns: 200px 190px 190px 190px 190px;
+    grid-template-rows: 100px 200px 250px 150px;
+  }
+
+  header {
+    height: 100px;
+    background-color: #F5F5F5;
+    grid-row: 1;
+    grid-column-start: 1;
+    grid-column-end: 6;
+  }
+  nav {
+    width: 200px;
+    height: 600px;
+    background-color: #E0E0E0;
+    grid-row-start: 2;
+    grid-row-end: 5;
+    grid-column: 1;  
+  }
+  section.c-d div {
+    width: 380px;
+    height: 200px;
+  }
+  #c {
+    background-color: #D3D3D3;
+    grid-row: 2;
+    grid-column-start: 2;
+    grid-column-end: 4;
+  }
+  #d {
+    background-color: #C0C0C0;
+    grid-row: 3;
+    grid-column-start: 2;
+    grid-column-end: 4;
+  }
+
+  #e {
+    background-color: #A9A9A9;
+    grid-row: 2;
+    grid-column-start: 4;
+    grid-column-end: 5;
+  }
+  #f {
+    background-color: #888888;
+    grid-row: 2;
+    grid-column-start: 5;
+    grid-column-end: 6;
+  }
+  #g {
+    background-color: #686868;
+    grid-row: 3;
+    grid-column-start: 4;
+    grid-column-end: 5;
+  }
+  #h {
+    background-color: #484848;
+    grid-row: 3;
+    grid-column-start: 5;
+    grid-column-end: 6;
+  }
+  footer {
+    background-color: #404040;
+    width: 760px;
+    height: 150px;
+    grid-row: 4;
+    grid-column-start: 2;
+    grid-column-end: 6;
   }
 }

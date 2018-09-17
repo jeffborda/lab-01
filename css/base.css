@@ -4,7 +4,12 @@ body {
   margin: 0px auto;
   font-size: 30px;
   text-align: center;
+  display: grid;
+  grid-template-columns: 240px 240px;
+  grid-template-rows: 75px 150px 125px 125px 250px 250px 80px;
 }
+
+
 p {
   display: block;
   top: 35%;
